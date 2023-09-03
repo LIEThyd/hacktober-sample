@@ -1,0 +1,188 @@
+#title {
+  background-color: #001B34;
+}
+
+body {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Share Tech', sans-serif;
+}
+
+p {
+  font-family: 'Share Tech', sans-serif;
+  font-size:30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.text-left p {
+  text-align: left;
+}
+
+/* Headings */
+.big-heading {
+  text-align: left;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.details {
+  text-align: left;
+  color: white;
+}
+
+.speaker-heading {
+  font-size: 3rem;
+}
+
+.moderator-heading {
+  margin-top: 15rem;
+  font-size: 3rem;
+}
+
+.cta-heading {
+  font-family: 'Share Tech', sans-serif;
+  color: #001B34;
+  font-size: 2.4rem;
+  padding: 30px 15%;
+}
+
+.day-plan {
+  padding: 3% 15% 2%;
+  text-align: left;
+}
+
+.day-heading {
+  font-size: 3rem;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #001B34;
+  color: white;
+}
+
+li {
+  font-family: 'Share Tech', sans-serif;
+  font-size:25px;
+}
+
+.black-section {
+  background-color: black;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.navbar-item:hover{
+  text-decoration: underline;
+}
+/* Features Section */
+#details {
+  position: relative;
+}
+
+.detail-title {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.details-box {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 1.5rem;
+  padding: 7%;
+}
+
+.icon {
+  color: #001B34;
+}
+
+.p1 {
+  font-size: 20px;
+}
+
+.card {
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-single {
+  padding-top: 30px;
+}
+
+#speakers {
+  padding: 100px;
+}
+
+.flex{
+  display: flex ;
+  flex-wrap: wrap;
+  margin: auto 0 auto 0;
+  width: 100vw;
+}
+
+.flex .text{
+  margin: auto 0 auto 0;
+}
+@media (max-width:1028px) {
+  .big-heading {
+    /* text-align: center; */
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+/* Call To Action */
+.form-btn {
+  margin: 0 10px 30px;
+  font-family: 'Share Tech', sans-serif;
+  background-color: #001B34;
+}
+
+#footer {
+  margin-top: 20px;
+}
+
+.footer-p {
+  font-size: 25px;
+}
+
+.cn-img {
+  margin: 15px 15px;
+}
