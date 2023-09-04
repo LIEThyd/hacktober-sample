@@ -180,3 +180,18 @@ li {
 .cn-img {
   margin: 5px 15px;
 }
+
+.container-map {
+  padding-top: 40px;
+}
+
+iframe {
+  width: 70%;
+  height: 500px;
+}
+
+.map-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
